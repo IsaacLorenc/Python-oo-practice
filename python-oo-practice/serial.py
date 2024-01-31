@@ -40,3 +40,8 @@ class SerialGenerator:
         """Reset number to original start."""
 
         self.next = self.start
+
+        
+    #suggestions
+    #1. Consider adding checks or error handling for edge cases, such as negative starting values or potential overflow scenarios.
+    #2.Implement validation to ensure that the start value is of a valid type (integer)    
